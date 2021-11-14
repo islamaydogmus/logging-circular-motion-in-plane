@@ -26,6 +26,6 @@ Since we can supply Vin from Arduino, there will be no need for external voltage
 
 ### Configurations
   
-You should check which port you connected your Arduino. Then change 'port' variable to that port. Measure the length of your linear pot and change 'LINLENGTH' parameter to measured length in centimeters. There is probably also a deadzone between origin and 0Ω point so you can measure and add that value to 'DEADZONE' variable.
+You should check which port you connected your Arduino. Then change 'port' variable to that port. Measure the length of your linear pot and change 'LINLENGTH' parameter to measured length in centimeters. There is probably also a deadzone between origin and 0Ω point in your linear potentiometer so you can measure and add that value to 'DEADZONE' variable.
 
 
